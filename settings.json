@@ -1,0 +1,158 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 24,
+  // "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "JetBrains Mono Medium",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "100",
+  "editor.cursorStyle": "line",
+  "editor.cursorSmoothCaretAnimation": false,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorWidth": 2,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "none",
+  "editor.codeActionsOnSave": {
+    // "source.fixAll.eslint": true
+  },
+  "editor.renderLineHighlight": "gutter",
+  "editor.parameterHints.enabled": false,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.linkedEditing": true,
+  "editor.defaultFormatter": "",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wrappingIndent": "indent",
+  "editor.wordWrapColumn": 150,
+  "eslint.format.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "react",
+    "angular",
+    "vue",
+    "html",
+    "javascript",
+    "typescript",
+    "typescriptreact"
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "node_modules": false,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "typescript.tsserver.log": "verbose",
+  "breadcrumbs.enabled": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json"
+},
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "html": {
+      "attr_quotes": "single"
+    },
+    "jsx": {
+      "self_closing_tag": true
+    }
+  },
+  "emmet.includeLanguages": {
+    "typescript": "typescript",
+    "javascript": "javascriptreact"
+  },
+  "git.enableSmartCommit": true,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "screencastMode.onlyKeyboardShortcuts": true,
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "terminal.integrated.fontFamily": "JetBrains Mono Medium",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.cursorStyle": "underline",
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.color": "#90a4ae",
+  "material-icon-theme.activeIconPack": "react",
+  "material-icon-theme.opacity": 1,
+  "material-icon-theme.folders.associations": {
+    "assets": "resource",
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+    "user": "Client"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d",
+    "*.ts": "typescript"
+  },
+  "workbench.sideBar.location": "left",
+  "files.autoSave": "afterDelay",
+  "sync.gist": "ce2c9ae80b59da636790a587493ed1f9",
+  "sync.autoUpload": true,
+  "sync.autoDownload": true,
+  "sync.quietSync": true,
+  "files.autoSaveDelay": 2500,
+  "workbench.colorTheme": "Omni",
+  "workbench.startupEditor": "newUntitledFile",
+  "sonarlint.rules": {
+    "java:S120": {
+      "level": "off"
+    }
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.eslintIntegration":true,
+  "javascript.validate.enable":false
+}
